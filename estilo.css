@@ -1,14 +1,19 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-body{
-    
+body {
+
     width: 100%;
     height: 100%;
-    background-color: cornsilk;
-    border-image: auto;
+    background-color: gainsboro;
+
+}
+
+.container {
+    border-radius: 10px;
+    border: 2px;
 }
 
 .principal {
@@ -20,6 +25,11 @@ body{
 .imagem {
     text-align: center;
     padding-top: 25px;
+    border-radius: 10px;
+}
+
+.imagem img {
+    border-radius: 10px;
 }
 
 
@@ -27,10 +37,10 @@ body{
 h1 {
     text-align: center;
     padding-top: 15px;
-    
+
 }
 
-.texto-projetos{
+.texto-projetos {
     text-align: center;
     padding-bottom: 20px;
 }
@@ -44,4 +54,3 @@ h1 {
 .rodape {
     text-align: center;
 }
-
